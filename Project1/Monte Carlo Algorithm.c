@@ -1,5 +1,8 @@
-// 몬테 카를로 알고리즘 구현하기
-#define MAX_COUNT 1000000
+// 몬테 카를로 알고리즘을 구현하라.
+// iteration은 10만회 수행하며 1000회마다 계산된 원주율과 진행 상황을 표시할 것
+// 코드 실행 결과 계산된 원주율 값도 같이 기재할 것
+
+#define MAX_COUNT 100000 //
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
