@@ -8,5 +8,7 @@ int main() {
 	printf("두 번째 요소 : %p\n", &arr[1]);
 	printf("세 번째 요소 : %p\n", &arr[2]);
 
+
+	// 주소값이 4씩 차이나는 이유는 int포인터의 단위가 4바이트기 때문
 	return 0;
 }
